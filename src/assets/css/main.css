@@ -1,0 +1,172 @@
+@charset "utf-8";
+/************************************************************
+ * 1. css reset
+*************************************************************/
+html,
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+optgroup,
+button,
+select,
+p,
+blockquote,
+figure,
+hr,
+menu,
+dir,
+thead,
+tbody,
+tfoot,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+html,
+body {
+  overflow: hidden;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+  font-size: 12px;
+  line-height: 1;
+}
+body {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei';
+}
+button {
+  border: 0 none;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+button,
+input,
+select,
+textarea {
+  text-transform: none;
+  font-family: inherit;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+textarea {
+  resize: vertical;
+}
+input[type='submit'],
+input[type='image'],
+input[type="reset"],
+input[type="button"],
+label[for],
+select,
+button,
+.pointer {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+a {
+  color: #2d374b;
+  text-decoration: none;
+}
+a:hover {
+  color: #cd0200;
+  text-decoration: underline;
+}
+a:active {
+  background-color: transparent;
+}
+a:active,
+a:hover,
+button {
+  outline: 0 none;
+}
+i,
+em {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+  font-weight: normal;
+  color: inherit;
+}
+small,
+.small {
+  display: inline-block;
+  font-size: 72%;
+  -webkit-transform: scale(1);
+  color: #999;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+th {
+  vertical-align: middle;
+  text-align: center;
+}
+table th,
+table td {
+  border: 1px solid #ddd;
+}
+table th {
+  font-weight: inherit;
+  border-bottom-width: 2px;
+  border-bottom-color: #ccc;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transform: translateX(200%);
+}
+.fade-enter,
+.fade-leave-active {
+  transition: all .5s ease;
+}
